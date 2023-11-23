@@ -10,10 +10,9 @@ const routes = [
     
   },
   {
-    path: '/dashboard',
-    name: 'dashboard',
-    component: () => import('@/components/Dashboard.vue'),
-    props: {},
+    path: '/votacions',
+    name: 'votacions',
+    component: () => import('@/components/Votacions.vue'),
     beforeEnter: (to, from, next) => {
       const store = useAppStore();
 

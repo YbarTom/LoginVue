@@ -56,13 +56,13 @@ export default {
 
       if (userExists) {
         appStore.setLoginInfo({ loggedIn: true, username: this.username, image: '' });
-        this.$router.replace({ name: "dashboard", params: { username: this.username } });
+        this.$router.push({ name: "votacions"});
       } else {
         this.errorMessage = "Invalid username or password";
       }
     },
   },
-  beforeRouteEnter(to, from, next) {
+  /*beforeRouteEnter(to, from, next) {
     const appStore = useAppStore();
 
     next(vm => {
@@ -72,6 +72,6 @@ export default {
         next();
       }
     });
-  },
+  },*/
 };
 </script>
