@@ -1,5 +1,5 @@
 {
-  "name": "Login",
+  "name": "login",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -25,5 +25,9 @@
     "unplugin-fonts": "^1.0.3",
     "vite": "^4.2.0",
     "vite-plugin-vuetify": "^1.0.0"
-  }
+  },
+  "description": "```\r # yarn\r yarn",
+  "main": ".eslintrc.js",
+  "author": "",
+  "license": "ISC"
 }
